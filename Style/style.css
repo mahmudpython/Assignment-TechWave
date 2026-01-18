@@ -26,10 +26,6 @@
     margin-left: 10px;
 }
 
-nav div{
-    border: 2px solid rgb(255, 0, 0);
-}
-
 /* Global Work End */
 
 /* Navbar Design */
@@ -193,3 +189,74 @@ ul li{
     font-weight: 200;
 }
 
+/* Grid Section */
+
+.grid-section{
+    padding: 120px 200px;
+    background-color: #230E3D;
+    color: white;
+}
+.grid-section h3{
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.grid-card-container{
+    display: grid;
+    border: 1px solid red;
+    grid-template-areas: 
+    "audio mobile mobile"
+    "audio global global"
+    "exclusive exclusive rich"
+    ;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grid-card-container img{
+    margin-bottom: 16px;
+}
+.grid-card-container h5{
+    margin-bottom: 16px;
+}
+.grid-card-container p{
+
+}
+.audio-caontainer{
+    padding: 110px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    grid-area: audio;
+    border: 1px solid red;
+    max-width: 380px;
+}
+.mobile-container{
+    padding: 40px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    grid-area: mobile;
+    border: 1px solid red;
+}
+.global-container{
+    padding: 40px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    grid-area: global;
+    border: 1px solid red;
+}
+.exclusive-container{
+     padding: 40px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    grid-area: exclusive;
+    border: 1px solid red;
+}
+.rich-container{
+     padding: 40px 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    grid-area: rich;
+    border: 1px solid red;
+     max-width: 380px;
+}
