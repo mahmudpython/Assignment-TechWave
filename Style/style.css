@@ -74,6 +74,7 @@ ul li{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    background-position: center;
     align-items: center;
 }
 .hero-content{
@@ -270,6 +271,7 @@ ul li{
     max-width: 1200px;
     margin: 0 auto;
     gap: 30px;
+    margin-bottom: 120px;
     
 }
 .featured-card-content{
@@ -324,4 +326,95 @@ ul li{
     display: flex;
     gap: 10px;
     color: #00FF88;
+}
+/* Host Container */
+.host-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    color: white;
+}
+.host-img-container{
+    max-width: 200px;
+    border: 1px solid red;
+}
+.host-text-container{
+    border: 1px solid red;
+}
+.host-text-container h4{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.host-text-container p{
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+.icon-social{
+    display: flex;
+    gap: 8px;
+    
+}
+.icon-social>div{
+    border: 1px solid rgba(255, 255, 255, 0.209);
+    padding: 10px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 40px;
+    max-height: 40px;
+}
+/* Footer Section */
+.footer-section{
+    padding: 120px;
+     border: 1px solid red;
+     background-image: url(../assets/footer-bg.png);
+     align-items: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+}
+.footer-container{
+    border: 2px solid red;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.footer-container>h1{
+    width: 100%;
+    font-size: 70px;
+    font-weight: bold;
+}
+.gradient-text{
+    background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.footer-text-container{
+    margin: 0 auto;
+    max-width: 544px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+    color: white;
+}
+.footer-text-container>div{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 34px;
+}
+.footer-section>small{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
 }
