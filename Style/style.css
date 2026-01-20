@@ -114,6 +114,10 @@ ul li{
     font-weight: bold;
     font-size: 16px;
 }
+.tooltip:hover>p{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
 .hero-text-container h1{
     font-size: 60px;
     margin-bottom: 8px;
@@ -421,12 +425,26 @@ ul li{
 
 
 /* Add animation */
-.icon-button gradient{
-
+.icon-button{
+    transition: transform 0.6s ease;
+}
+.icon-button:hover{
+    transform: translateX(-40px);
 }
 .icon-message{
-    
+    transition: transform 0.6s ease;
 }
+.icon-message:hover{
+    transform: translateX(40px);
+    background-color: black;
+}
+
+.main-summery-container>div>h4:hover{
+    color: #FB09B4;
+}
+
+
+/* Add Media Screen */
 
 @media screen and (max-width:576px) {
     nav{
