@@ -505,8 +505,19 @@ ul li{
     .footer-text-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
         justify-items: center;
-        gap: 0;
+        gap: 0px;
     }
+
+}
+ @media screen and (min-width:576px) and (max-width:992px) {
+    .grid-section{
+         padding: 20px;
+    }
+     .featured-section{
+        padding: 20px;
+    }
+  .main-summery-container h4{
+    font-size: 30px;
+  }
 }
