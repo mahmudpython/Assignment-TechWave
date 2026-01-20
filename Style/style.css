@@ -419,6 +419,15 @@ ul li{
     color: white;
 }
 
+
+/* Add animation */
+.icon-button gradient{
+
+}
+.icon-message{
+    
+}
+
 @media screen and (max-width:576px) {
     nav{
         padding: 18px 20px;
